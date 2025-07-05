@@ -1,5 +1,10 @@
+body {
+  background-color: #f9fed0dd;
+  
+}
+
 .header {
-  background-image: url(../img/iLlestrator.jpg);
+  background-image: url(https://www.techspot.com/images2/news/bigimage/2022/11/2022-11-08-image-6.jpg);
   height: 400px;
   width: 800px;
   background-size: cover;
@@ -8,7 +13,6 @@
   margin: 0 auto;
   border-radius: 40px;
   box-shadow: 10px 10px 10px rgba(17, 17, 17, 0.702);
-  
 }
 .title {
   margin-top: 50px;
@@ -16,16 +20,46 @@
 }
 
 .description {
-  /* margin-left: 80px;
-    margin-right: 80px; */
   text-align: justify;
-  height: 200px;
-  width: 600px;
+  height: 400px;
+  width: 800px;
   margin: 0 auto;
-  background-color: rgba(207, 252, 237, 0.732);
   padding-top: 80px;
   padding-right: 20px;
   padding-left: 20px;
-  border-radius: 30px;
+  border-radius: 40px;
+  color: rgb(123, 255, 163);
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
   /* box-shadow: 10px 10px 10px rgba(17, 17, 17, 0.1); */
+  background-color: rgba(207, 252, 237, 0.274);
+  
+}
+
+.Fav_gam {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+}
+.Fav_gam img {
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(125, 125, 125, 0.398);
+}
+.Fav_gam p {
+  color: #333;
+  font-family: "Courier New", Courier, monospace;
+}
+.Fav_gam img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  box-shadow: 10px 10px 10px rgba(17, 17, 17, 0.741);
+}
+.my-favorite-games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
